@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="12" time="100.942792">
+<testcase classname="Test Registration" name="Test Registration with valid data" time="16.140689">
+<system-out><![CDATA[Given user open application.................................................passed
+When user clicks on Registration............................................passed
+Then users validates Registration page......................................passed
+When user enter firstname...................................................passed
+When user enter lastname....................................................passed
+When user enter password....................................................passed
+When user enter confirm password............................................passed
+When user click on Register button..........................................passed
+Then user validates Registration success....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Test" name="Login with valid test data" time="23.916301">
+<system-out><![CDATA[Given user launches ie browser And navigates to application url.............passed
+When user enter username as "mercury" in username field.....................passed
+When user enter password as "mercury" in password field.....................passed
+And Click Signin............................................................passed
+Then validates Login success................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Test" name="Login with valid test data" time="26.154072">
+<system-out><![CDATA[Given user launches ie browser And navigates to application url.............passed
+When user enter username as "mercury" in username field.....................passed
+When user enter password as "mercury" in password field.....................passed
+And Click Signin............................................................passed
+Then validates Login success................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Test" name="Login with valid test data 2" time="6.433681">
+<system-out><![CDATA[Given user launches ie browser And navigates to application url.............passed
+When user enter username as "ayuti" in username field.......................passed
+When user enter password as "pagal" in password field.......................passed
+And Click Signin............................................................passed
+Then validates Login success................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Test" name="Login with valid test data 3" time="7.471352">
+<system-out><![CDATA[Given user launches ie browser And navigates to application url.............passed
+When user enter username as "abc" in username field.........................passed
+When user enter password as "def" in password field.........................passed
+And Click Signin............................................................passed
+Then validates Login success................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TestMeApp scenarios" name="TestMeApp Login" time="0.00028">
+<system-out><![CDATA[* user login testmeapp using valid credentials..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="TestMeApp scenarios" name="search products - testmeapp" time="0.000187">
+<system-out><![CDATA[* user searching for products available in catalog..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="TestMeApp scenarios" name="add product - testmeapp" time="0.000153">
+<system-out><![CDATA[* user adding products to cart..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TestMeApp scenarios" name="logout - testmeapp" time="0.000159">
+<system-out><![CDATA[* user performs logout......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TestMeApp Registration" name="TestMeApp" time="10.39087">
+<system-out><![CDATA[Given user open TestMeApp...................................................passed
+When user clicks on signup..................................................passed
+Then user validates Signup page.............................................passed
+When user enters username...................................................passed
+When user enters firstname..................................................passed
+When user enters lastname...................................................passed
+When user enters password...................................................passed
+When user enters confirm password...........................................passed
+When user select gender.....................................................passed
+When user enters email......................................................passed
+When user enters mobile number..............................................passed
+When user enters dob........................................................passed
+When user enters address....................................................passed
+When user enters security questions.........................................passed
+When user enters answer.....................................................passed
+When user click on register button..........................................passed
+Then user validate Registration success.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Test" name="Login with valid test data" time="10.434852">
+<system-out><![CDATA[Given user launches ie browser And navigates to TestMeApp...................passed
+When user clicks on signin..................................................passed
+When user enter username as "Lalitha".......................................passed
+When user enter password as "Password123"...................................passed
+And Click Login.............................................................passed
+Then validate Login success.................................................passed
+Given user validate the login success.......................................passed
+When user clicks on All Categories..........................................passed
+When user clicks on Electronics.............................................passed
+When user doubleclicks on Headphone.........................................passed
+When user type headphone in the search bar..................................passed
+When user clicks on search button...........................................passed
+And user click on Add to Cart button........................................passed
+Then user clicks on Cart....................................................passed
+Then user clicks on Checkout................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Product in TestMeApp" name="Search Headphpone" time="0.000196">
+<skipped message="The scenario has no steps"/>
+</testcase>
+</testsuite>

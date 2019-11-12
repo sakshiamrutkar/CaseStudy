@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="43.623381">
+<testcase classname="Test Registration" name="Test Registration with valid data" time="8.947477">
+<system-out><![CDATA[Given user open application.................................................passed
+When user clicks on Registration............................................passed
+Then users validates Registration page......................................passed
+When user enter firstname...................................................passed
+When user enter lastname....................................................passed
+When user enter password....................................................passed
+When user enter confirm password............................................passed
+When user click on Register button..........................................passed
+Then user validates Registration success....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Test" name="Login with valid test data" time="11.084594">
+<system-out><![CDATA[Given user launches ie browser And navigates to application url.............passed
+When user enter username as "mercury" in username field.....................passed
+When user enter password as "mercury" in password field.....................passed
+And Click Signin............................................................passed
+Then validates Login success................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Test" name="Login with valid test data" time="11.220244">
+<system-out><![CDATA[Given user launches ie browser And navigates to application url.............passed
+When user enter username as "mercury" in username field.....................passed
+When user enter password as "mercury" in password field.....................passed
+And Click Signin............................................................passed
+Then validates Login success................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Test" name="Login with valid test data 2" time="6.172751">
+<system-out><![CDATA[Given user launches ie browser And navigates to application url.............passed
+When user enter username as "ayuti" in username field.......................passed
+When user enter password as "pagal" in password field.......................passed
+And Click Signin............................................................passed
+Then validates Login success................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Test" name="Login with valid test data 3" time="6.196506">
+<system-out><![CDATA[Given user launches ie browser And navigates to application url.............passed
+When user enter username as "abc" in username field.........................passed
+When user enter password as "def" in password field.........................passed
+And Click Signin............................................................passed
+Then validates Login success................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TestMeApp scenarios" name="TestMeApp Login" time="0.000657">
+<system-out><![CDATA[* user login testmeapp using valid credentials..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="TestMeApp scenarios" name="search products - testmeapp" time="0.000372">
+<system-out><![CDATA[* user searching for products available in catalog..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="TestMeApp scenarios" name="add product - testmeapp" time="0.000407">
+<system-out><![CDATA[* user adding products to cart..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TestMeApp scenarios" name="logout - testmeapp" time="0.000373">
+<system-out><![CDATA[* user performs logout......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
